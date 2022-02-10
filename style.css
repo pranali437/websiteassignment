@@ -1,0 +1,42 @@
+@media screen and (min-width: 1px) and (max-width: 767px)
+
+
+#mid-wrapper {
+	margin-top: 102px;
+    background: #fff;
+    float: left;
+    width: 100%;
+    }
+    @media (max-width: 767px)
+.hp-cta {
+    padding: 50px 15px 0;
+}
+.hp-cta {
+    background: url(../images/contact-back-bg@2x.jpg) no-repeat center top;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 110px 0 0;
+    position: relative;
+}
+section {
+    clear: both;
+}
+section {
+    display: block;
+}
+@media screen and (min-width: 240px) and (max-width: 1169px)
+body {
+    -webkit-text-size-adjust: none;
+}
+.hp-cta:after {
+    background: rgba(0,0,0,.6);
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
